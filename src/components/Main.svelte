@@ -6,7 +6,7 @@
     {name: 'Keith WizardHat', icon: 'fa-solid fa-hat-wizard'},
     {name: 'Ultimate Todos', icon: 'fa-solid fa-list-check'},
     {name: 'Project3', icon: 'fa-solid fa-diagram-project'}
-  ]
+  ];
 </script>
 
 <main class="flex flex-col flex-1 p-4">
@@ -47,14 +47,14 @@
       <p>Watch the video</p>
     </a>
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
-      <Step step={step[0]}>
-
+      <Step step={steps[0]}>
+        <p>Keith's WizardHat is a placeholder with <strong class="text-violet-400">Next.js Commerce.js Stripe & Node.js + Express.js!</strong> Commerce.js is a product CMS and Stripe is used for all transaction handling.</p>
       </Step>
-      <Step step={step[1]}>
-
+      <Step step={steps[1]}>
+        <p>Ultimate Todos is a placeholder with <strong class="text-violet-400">Next.js, Node.js + Express.js & Firebase</strong> CRUD application that allows a user to login, manage a tidy and efficacious todo list, and persist this information acrtoss all devices.</p>
       </Step>
-      <Step step={step[2]}>
-
+      <Step step={steps[2]}>
+        <p>Project3 is a placeholder with <strong class="text-violet-400">some impressive tech stack</strong> so you are sure to be very impressed.</p>
       </Step>
     </div>
   </section>
