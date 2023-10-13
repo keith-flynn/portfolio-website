@@ -1,5 +1,12 @@
 <script>
+  import Step from "./Step.svelte";
 
+  let steps = [
+    // Project list
+    {name: 'Keith WizardHat', icon: 'fa-solid fa-hat-wizard'},
+    {name: 'Ultimate Todos', icon: 'fa-solid fa-list-check'},
+    {name: 'Project3', icon: 'fa-solid fa-diagram-project'}
+  ]
 </script>
 
 <main class="flex flex-col flex-1 p-4">
@@ -39,5 +46,16 @@
       <i class="fa-regular fa-circle-play"></i>
       <p>Watch the video</p>
     </a>
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
+      <Step step={step[0]}>
+
+      </Step>
+      <Step step={step[1]}>
+
+      </Step>
+      <Step step={step[2]}>
+
+      </Step>
+    </div>
   </section>
 </main>
