@@ -67,7 +67,9 @@
     <h3 class="font-semibold text-3xl sm:text-4xl md:text-5xl">A bit <span class="poppins text-violet-400">about</span> me.</h3>
     </div>
     <p class="mx-auto poppins font-semibold text-lg sm:text-xl md:text-2xl">I am . . .</p>
-    <div class="flex flex-col gap-20 w-full mx-auto max-w-[800]">
+
+    <div class="flex flex-col gap-20 w-4/5 mx-auto max-w-[800] ">
+      
       {#each benefits as benefit, index}
       <div class="flex gap-6 sm:gap-8">
         <p class="poppins text-4xl sm:text-5xl md:text-6xl text-slate-500 font-semibold">
@@ -80,7 +82,9 @@
           <p>{benefit.description}</p>
         </div>
       </div>
+      
       {/each}
+
     </div>
     <h5 class="text-2xl sm:text-3xl font-semibold text-center poppins">The <span class="text-violet-400 poppins">Complete</span> Package</h5>
     <div class="flex flex-col overflow-x-scroll gap-10 max-w-[800px] mx-auto x-full">
