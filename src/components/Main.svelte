@@ -3,15 +3,15 @@
 
   let steps = [
     // Project list
-    {name: 'Keith WizardHat', icon: 'fa-solid fa-hat-wizard'},
-    {name: 'Ultimate Todos', icon: 'fa-solid fa-list-check'},
-    {name: 'Project3', icon: 'fa-solid fa-diagram-project'}
+    {name: 'Pet Adoption Website', icon: 'fa-solid fa-paw', href: 'https://github.com/keith-flynn/pet-adoption-website'},
+    {name: 'Full Tilt Jousting', icon: 'fa-solid fa-horse-head', href: 'https://github.com/keith-flynn/full-tilt'},
+    {name: 'Knave Character Creator', icon: 'fa-solid fa-dungeon', href: 'https://github.com/keith-flynn/knave-character-creator'}
   ];
 
   let benefits = [
-    {name: 'a self taught developer', description: 'placeholder template'},
-    {name: 'a product design & UX fanatic', description: 'placeholder template'},
-    {name: 'an excellent communicator', description: 'placeholder template'}
+    {name: 'a tech learning enthusiast', description: "Learning to code is a gateway to endless creativity and problem solving. The challenges involved in developing and engineering innovative online experiences are unparalleled. Starting off first with Python and then with JavaScript, HTML & CSS my knowledge base is ever evolving to include JavaScript frameworks, backend programming, design, cloud services and much much more."},
+    {name: 'a product design & UX fanatic', description: "Carefully crafting and designing amazing user experiences allows me to express and experiment with every ounce of creativity I have. I love the challenge of learning new design concepts and enabling users with amazing online experiences."},
+    {name: 'an excellent communicator', description: "Communication is key and it's a paramount value of mine. I believe in transparency and constructive communication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any work space with any team."}
   ]
 </script>
 
@@ -25,7 +25,7 @@
       <p class="text-base sm:text-lg md:text-xl">
         My <span class="text-violet-400">favorite tech</span> includes JavaScript (NEXT.JS or SvelteKit), TailwindCSS, Node.js + Express.js & PostgreSQL or Firebase/Firestore!
       </p>
-      <a class="blueShadow mx-auto lg:mr-auto text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer" href="#" target="_blank">
+      <a class="blueShadow mx-auto lg:mr-auto text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer" href="#contact">
         <div
               class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"
           />
@@ -33,7 +33,7 @@
       </a>
     </div>
     <div class="relative shadow-2xl grid place-items-center">
-      <img src={"images/profile.webp"} alt="Profile image" class="object-cover z-[2] max-h-[70vh]"/>
+      <img src={"images/profile.webp"} alt="Profile Avatar" class="object-cover z-[2] max-h-[70vh]"/>
     </div>
   </section>
   <section id="projects" class="py-20 lg:py-32 flex flex-col gap-24">
@@ -45,19 +45,19 @@
         Curious to <span class="poppins text-violet-400">see</span> my work?
       </h3>
     </div>
-    <a href="#" target="_blank" class="mx-auto px-4 py-2 rounded-md border border-sold border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200">
-      <i class="fa-regular fa-circle-play"></i>
-      <p>Watch the video</p>
+    <a href="https://github.com/keith-flynn" target="_blank" class="mx-auto px-4 py-2 rounded-md border border-sold border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover:border-violet-700 duration-200">
+      <i class="fa-brands fa-github"></i>
+      <p>Check out my Github!</p>
     </a>
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
       <Step step={steps[0]}>
-        <p>Keith's WizardHat is a placeholder with <strong class="text-violet-400">Next.js Commerce.js Stripe & Node.js + Express.js!</strong> Commerce.js is a product CMS and Stripe is used for all transaction handling.</p>
+        <p>Need A Puppy Take A Puppy is a pet adoption website with <strong class="text-violet-400">Node.js + Express.js</strong> that uses some kind of REST API to do some really neat things here.</p>
       </Step>
       <Step step={steps[1]}>
-        <p>Ultimate Todos is a placeholder with <strong class="text-violet-400">Next.js, Node.js + Express.js & Firebase</strong> CRUD application that allows a user to login, manage a tidy and efficacious todo list, and persist this information acrtoss all devices.</p>
+        <p>Full Tilt is a jousting game of chance with <strong class="text-violet-400">Node.js + Express.js</strong> where two knights battle it out for honor and victory. Many new updates coming soon.</p>
       </Step>
       <Step step={steps[2]}>
-        <p>Project3 is a placeholder with <strong class="text-violet-400">some impressive tech stack</strong> so you are sure to be very impressed.</p>
+        <p>Knave Character Creator is an enhancement of a former Python project with <strong class="text-violet-400">JavaScript, HTML & CSS</strong> to rapidly generate eleven random characteristics of your newest hero.</p>
       </Step>
     </div>
   </section>
@@ -133,6 +133,7 @@
     <div class="mx-auto -mt-12 italic sm:hidden opacity-50">
       <p>Scroll to see more &rarr;</p>
     </div>
-    <p class="mx-auto">So why not invest?</p>
+    <p class="mx-auto">So why not <span class="text-violet-400 poppins">invest</span>?</p>
   </section>
+  <section id="contact"></section>
 </main>
