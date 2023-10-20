@@ -2,6 +2,8 @@
 
 A portfolio presentation built using SvelteKit, TailwindCSS, Node.js and Express.js
 
+Learn all about me!
+
 [View the Github hosted page deployed through Actions here!](https://keith-flynn.github.io/portfolio-website/)
 
 ## About
