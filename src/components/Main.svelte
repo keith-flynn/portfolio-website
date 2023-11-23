@@ -51,7 +51,7 @@
     </a>
     <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
       <Step step={steps[0]}>
-        <p>Need A Puppy Take A Puppy is a pet adoption website with <strong class="text-violet-400">Node.js + Express.js</strong> that uses some kind of REST API to do some really neat things here.</p>
+        <p>Need A Puppy Take A Puppy is a pet adoption website with <strong class="text-violet-400">Node.js + Express.js</strong> middleware that utilizes a <strong class="text-violet-400">RESTful API</strong> endpoint. The middleware can be swapped modularly to utilize  <strong class="text-violet-400">MongoDB Atlas</strong></p>
       </Step>
       <Step step={steps[1]}>
         <p>Full Tilt is a jousting game of chance with <strong class="text-violet-400">Node.js + Express.js</strong> where two knights battle it out for honor and victory. Many new updates coming soon.</p>
