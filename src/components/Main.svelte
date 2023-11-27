@@ -23,7 +23,7 @@
         <span class="poppins text-violet-400">Developer</span>
       </h2>
       <p class="text-base sm:text-lg md:text-xl">
-        My <span class="text-violet-400">favorite tech</span> includes JavaScript (NEXT.JS or SvelteKit), TailwindCSS, Node.js + Express.js & PostgreSQL or Firebase/Firestore!
+        My <span class="text-violet-400">favorite tech</span> includes JavaScript, Node.js + Express.js, Python & MySQL or MongoDB!
       </p>
       <a class="blueShadow mx-auto lg:mr-auto text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer" href="#contact">
         <div
